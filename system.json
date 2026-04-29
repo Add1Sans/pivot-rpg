@@ -1,12 +1,13 @@
 {
   "id": "pivot-rpg",
   "title": "Pivot RPG",
+  "type": "system",
   "description": "A tabletop RPG system built around five PIVOT STATS: Vigor, Grace, Instinct, Theory, and Presence.",
   "version": "0.10.0",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13",
-    "maximum": "13"
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {

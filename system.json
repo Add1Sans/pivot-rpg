@@ -83,8 +83,8 @@
     }
   ],
   "url": "https://example.com/pivot-rpg",
-  "manifest": "https://example.com/pivot-rpg/system.json",
-  "download": "https://example.com/pivot-rpg/pivot-rpg.zip",
+  "manifest": "https://raw.githubusercontent.com/Add1Sans/pivot-rpg/refs/heads/main/system.json",
+  "download": "https://github.com/user-attachments/files/27217635/pivot-rpg.zip",
   "grid": {
     "distance": 5,
     "units": "ft"

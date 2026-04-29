@@ -1,0 +1,94 @@
+{
+  "id": "pivot-rpg",
+  "title": "Pivot RPG",
+  "description": "A tabletop RPG system built around five PIVOT STATS: Vigor, Grace, Instinct, Theory, and Presence.",
+  "version": "0.10.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "Pivot RPG Team"
+    }
+  ],
+  "esmodules": [
+    "module/pivot-rpg.mjs"
+  ],
+  "styles": [
+    "styles/pivot-rpg.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": ["biography"]
+      },
+      "npc": {
+        "htmlFields": ["biography"]
+      }
+    },
+    "Item": {
+      "weapon": {
+        "htmlFields": ["description"]
+      },
+      "talent": {
+        "htmlFields": ["description"]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "starter-weapons",
+      "label": "Starter Weapons",
+      "system": "pivot-rpg",
+      "path": "packs/starter-weapons.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "starter-enemies",
+      "label": "Starter Enemies",
+      "system": "pivot-rpg",
+      "path": "packs/starter-enemies.db",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "starter-talents",
+      "label": "Starter Talents",
+      "system": "pivot-rpg",
+      "path": "packs/starter-talents.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "url": "https://example.com/pivot-rpg",
+  "manifest": "https://example.com/pivot-rpg/system.json",
+  "download": "https://example.com/pivot-rpg/pivot-rpg.zip",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": null,
+  "secondaryTokenAttribute": null
+}

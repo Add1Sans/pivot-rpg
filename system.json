@@ -4,9 +4,9 @@
   "description": "A tabletop RPG system built around five PIVOT STATS: Vigor, Grace, Instinct, Theory, and Presence.",
   "version": "0.10.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
   },
   "authors": [
     {
@@ -82,7 +82,7 @@
       "flags": {}
     }
   ],
-  "url": "https://example.com/pivot-rpg",
+  "url": "https://github.com/Add1Sans/pivot-rpg",
   "manifest": "https://raw.githubusercontent.com/Add1Sans/pivot-rpg/refs/heads/main/system.json",
   "download": "https://github.com/user-attachments/files/27217635/pivot-rpg.zip",
   "grid": {

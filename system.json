@@ -81,11 +81,29 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "starter-armors",
+      "label": "Starter Armors",
+      "system": "pivot-rpg",
+      "path": "packs/starter-armors.db",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
+    },
+    {
+      "name": "starter-spells",
+      "label": "Starter Spells",
+      "system": "pivot-rpg",
+      "path": "packs/starter-spells.db",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+      "flags": {}
     }
   ],
   "url": "https://github.com/Add1Sans/pivot-rpg",
   "manifest": "https://raw.githubusercontent.com/Add1Sans/pivot-rpg/refs/heads/main/system.json",
-  "download": "https://github.com/user-attachments/files/27229331/pivot-rpg-v13_4.zip",
+  "download": "https://example.com/pivot-rpg/pivot-rpg.zip",
   "grid": {
     "distance": 5,
     "units": "ft"

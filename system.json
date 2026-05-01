@@ -104,7 +104,7 @@
   ],
   "url": "https://github.com/Add1Sans/pivot-rpg",
   "manifest": "https://raw.githubusercontent.com/Add1Sans/pivot-rpg/refs/heads/main/system.json",
-  "download": "https://github.com/user-attachments/files/27264952/pivot-rpg-v13_10.zip",
+  "download": "https://example.com/pivot-rpg/pivot-rpg.zip",
   "grid": {
     "distance": 5,
     "units": "ft"

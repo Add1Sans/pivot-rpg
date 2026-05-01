@@ -18,7 +18,8 @@
     "module/pivot-rpg.mjs"
   ],
   "styles": [
-    "styles/pivot-rpg.css"
+    "styles/pivot-rpg.css",
+    "styles/character-sheet-theme.css"
   ],
   "languages": [
     {
@@ -103,7 +104,7 @@
   ],
   "url": "https://github.com/Add1Sans/pivot-rpg",
   "manifest": "https://raw.githubusercontent.com/Add1Sans/pivot-rpg/refs/heads/main/system.json",
-  "download": "https://github.com/user-attachments/files/27230572/pivot-rpg-v13_8.zip",
+  "download": "https://example.com/pivot-rpg/pivot-rpg.zip",
   "grid": {
     "distance": 5,
     "units": "ft"
